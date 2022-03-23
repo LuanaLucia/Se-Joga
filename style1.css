@@ -1,0 +1,572 @@
+body {
+    margin:0;
+    font-family: poppins;
+    background-color: #ec2044;
+    
+}
+.gamerRecuperarSenha {
+  height: 78vh;
+  width: 100%;
+  
+
+}
+.ilustrarRecuperar {
+  height: 80%;
+
+  position: absolute;
+  top: 75px;
+  width: 50%;
+}
+.vector-4 {
+    height: 78vh; /*80%*/
+    left: 0;
+    position: absolute;
+    top: 75px;
+    width: 60%;
+
+  }
+  .flat-young-woman-pla {
+    height: 78vh; /*80%*/
+
+    position: absolute;
+    top: 75px;
+    width: 50%;
+  }
+  .faixaAzulCriarConta {
+    position: absolute;
+    height: 80%;
+    left: 0;
+    
+    top: 70px;
+    width: 60%;
+
+  }
+  .construcao {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+    top: 70px;
+
+
+  }
+  .faixaDegrade{
+    position: absolute;
+    height: 80%;
+    left: 0;
+    
+    top: 70px;
+    width: 100%;
+
+  }
+  .faixaVermelhaCriarConta {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    height: 200px;
+
+  }
+  .ilustraCriarConta {
+    position: absolute;
+    right: 0px;
+    height: 80%;
+    top: 70px;
+    width: 80%;
+  }
+  .ilustraRegulamentos {
+    position: absolute;
+    right: 0px;
+    width: 850px;
+    height: 80%;
+    object-fit: cover;
+    top: 70px;
+  }
+  .faixaVerdeRegulamentos {
+    position: absolute;
+    width: 720px;
+    height: 80%;
+    left:200px;
+    object-fit: cover;
+    top: 70px;
+  }
+  .faixaAzulRegulamentos {
+    position: absolute;
+    width: 1000px;
+    height: 80%;
+    object-fit: cover;
+    left:-300px;
+    top: 70px;
+    
+}
+
+textarea{
+    vertical-align: top;
+    resize:none;
+}
+#btn-menu{
+   display:none;
+}
+header{
+    background-color: rgba(236, 32, 68, 1);;
+    font-weight: 600;
+}
+header label{
+    color: #ec2044;
+    font-size:25px;
+    display:block;
+    padding: 5px 10px;
+    width: 20px;
+    display: none;
+
+}
+.menu ul{
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    transition: all .5s;
+
+}
+.menu li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+
+}
+
+.menu li a:hover{
+    color: #ffffff;
+}
+.menu li a:select { color: #ffffff }
+
+.logo{
+    position: absolute;
+    left: 0%;
+    padding-top: 10px;
+
+}
+.login{
+    position: absolute;
+    top:0px;
+    right: 30px;
+
+
+}
+.rect{
+    position: absolute;
+    top:22px;
+    right: 69px;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 10px;
+    height: 30px;
+
+}
+
+
+.chatNews{
+    position: absolute;
+    right: 0%;
+    top:0%
+ 
+
+}
+.tituloPG{
+    position: relative;
+    right: 20%;
+}
+
+
+main {
+    min-height: 78.2vh;
+    display: grid;
+    height: 300px;
+   
+  
+
+  }
+
+  .formCriarConta::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .formCriarConta::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  .formCriarConta::-webkit-scrollbar-thumb {
+    background-color: #ec204534;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #21252988;  /* creates padding around scroll thumb */
+  }
+  
+  .Painel::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .Painel::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  .Painel::-webkit-scrollbar-thumb {
+    background-color: #ec204534;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #21252988;  /* creates padding around scroll thumb */
+  }
+
+
+  .main__content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    
+
+  }
+
+ 
+.form-control, textarea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+select,
+input {
+  display: block;
+}
+
+input[type="checkbox" i]{
+  display:inline;
+}
+.termoUso{
+  color:#000000;
+}
+.formLogin{
+    text-decoration: none;
+    position: absolute;
+    width: 600px;
+    right: 130px;
+    top: 20%;
+
+}
+.formCriarConta{
+    text-decoration: none;
+    position: absolute;
+    width: 350px;
+    left: 13%;
+    top: 100px;
+    height: 73%;    
+
+}
+.Painel{
+  background:rgba(35, 78, 66, 0.5);
+  text-decoration: none;
+  position: absolute;
+  width: 350px;
+  left: 13%;
+  top: 100px;
+  height: 500px;  
+ 
+
+}
+.Vagas0{
+  text-decoration: none;
+  background:rgba(9, 214, 157, 0.5);
+  position: relative;
+  width: 350px;
+  top: 0px;
+  height: 73%;    
+  border-radius: 16px;
+
+}
+.noticias0{
+  text-decoration: none;
+  background:rgba(0, 174, 255, 0.5);
+  position: relative;
+  width: 350px;
+  top: 0px;    
+  border-radius: 16px;
+
+}
+.perfil0{
+  text-decoration: none;
+  background:rgba(240, 137, 214, 0.53);
+  position: relative;
+  width: 220px;
+  height: 1378px;
+
+   
+  border-radius: 16px;
+
+}
+.Regulamentos{
+  text-decoration: none;
+  position: absolute;
+  width: 600px;
+  left: 50px;
+  top: 100px;  
+
+}
+.formCriarContaLabel{
+  position: relative;
+  color: #000000;
+  left:10px;
+  font-size: 12px;
+}
+.formCriarContaInput{
+
+  width: 290px;
+  height: 18px;
+  padding-left:20px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: 3px solid transparent;
+}
+.formCriarContaSelect{
+
+  width: 318px;
+  height: 28px;
+  padding-left:15px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: 3px solid transparent;
+}
+.formLoginInputE{
+    position: relative;
+    width: 400px;
+    height: 48px;
+
+   
+
+    padding-left:100px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: 3px solid #ec2044
+}
+.formLoginLabelE{
+    position: relative;
+    width: 80px;
+    
+    top:-40px;
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right: 15px;
+    background: rgb(255, 124, 148);
+    border-radius: 50px;
+}
+.formLoginInputRecupSenha{
+  position: relative;
+  width: 400px;
+  height: 48px;
+  padding-left:100px;
+  background: #F089D6;
+  border-radius: 50px;
+  border: 0px solid transparent;
+  left:25px;
+}
+.formLoginLabelRecupSenha{
+  position: relative;
+  width: 80px;
+  top:-37px;
+  height: 75px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left:13px;
+  padding-right: 15px;
+  background: #EC2044;
+  border-radius: 50px;
+  left:25px;
+}
+
+.formLoginInputS{
+    position: relative;
+    width: 400px;
+    height: 48px;
+
+   
+
+    padding-left:100px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: 3px solid #ec2044
+}
+
+.formLoginLabelS{
+  position: relative;
+  width: 80px;
+  
+  top:-40px;
+  height: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:15px;
+  padding-right: 15px;
+  background: rgb(255, 124, 148);
+  border-radius: 50px;
+}
+.formLoginBtn {
+    position: relative;
+    width: 195px;
+    height: 48px;
+    top:-20px;
+    left: 150px;
+    
+    color: #FFFFFF;
+    font-size:18px;
+
+    background: #00AEFF;
+    border-radius: 50px;
+    border: 3px solid #ec2044
+}
+.formCriarContaBtn {
+  position: relative;
+  top: 40px;
+  left: 70px;
+  width: 150px;
+  height: 40px;
+
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 124%;
+
+  background: #09D69D;
+  border-radius: 50px;
+  border: 3px solid transparent
+}
+
+.rotCliqueAqui{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    position: relative;
+    left: 60px;
+    top: -20px;
+
+    
+    
+}
+.rotEsquecerSenha{
+    position: relative;
+    top:-20px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+
+.poppins-semi-bold-midnight-moss-44px {
+    color: rgba(5, 5, 5, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .span1 {
+    color:  #09d79d;
+    font-size: 44px;
+  }
+  .span1CriarConta {
+    position: relative;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .span2CriarConta {
+    position: relative;
+    left: 30px;
+    color:  #ec2044;
+    font-size: 16px;
+  }
+  .span3LGPD {
+    position: relative;
+    width: 200px;
+    left: 45px;
+    top: 50px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 100%;
+    /* or 8px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #15171B;
+  }
+  .spanNota{
+    font-size: 14px;
+    color: #ffffff;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    
+
+  }
+  .rodape ul{
+    position: absolute;
+    list-style: none;
+    padding: 10px 30px;
+    margin-top: 20;
+    right: 0%;
+    display: flex;
+    transition: all .5s;
+    padding-top: 20px;
+
+}
+.rodape li a{
+    
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 15px;
+
+}

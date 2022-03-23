@@ -1,0 +1,473 @@
+body {
+    margin:0;
+    font-family: poppins;
+    background-color: rgb(0, 0, 0);
+    
+}
+.vector-4 {
+    height: 80%;
+    left: 0;
+    position: absolute;
+    top: 70px;
+    width: 60%;
+
+  }
+  .flat-young-woman-pla {
+    height: 80%;
+
+    position: absolute;
+    top: 70px;
+    width: 50%;
+  }
+  .faixaAzulCriarConta {
+    position: absolute;
+    height: 80%;
+    left: 0;
+    
+    top: 70px;
+    width: 60%;
+
+  }
+  .faixaDegrade{ 
+    position: absolute;
+    height: 90%;
+    left: 0;
+    
+    top: 70px;
+    width: 100%;
+  
+
+  }
+  .faixaVermelhaCriarConta {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    height: 200px;
+
+  }
+  .ilustraCriarConta {
+    position: absolute;
+    right: 0px;
+    height: 80%;
+    top: 70px;
+    width: 80%;
+  }
+
+.btn2 {
+    display: inline-block;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0rem .75rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    color: white;
+
+    background-color: #1c1c1c;
+   
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 1.5rem;
+}
+textarea{
+    vertical-align: top;
+    resize:none;
+}
+#btn-menu{
+   display:none;
+}
+header{
+    background-color: rgba(236, 32, 68, 1);;
+    font-weight: 600;
+}
+header label{
+    color: #ec2044;
+    font-size:25px;
+    display:block;
+    padding: 5px 10px;
+    width: 20px;
+    display: none;
+
+}
+.menu ul{
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    transition: all .5s;
+
+}
+.menu li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+
+}
+
+.menu li a:hover{
+    color: #ffffff;
+}
+.menu li a:select { color: #ffffff }
+
+.logo{
+    position: absolute;
+    left: 0%;
+    padding-top: 10px;
+
+}
+.login{
+    position: absolute;
+    top:0px;
+    right: 30px;
+
+
+}
+.rect{
+    position: absolute;
+    top:22px;
+    right: 69px;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 10px;
+    height: 30px;
+
+}
+
+
+.chatNews{
+    position: absolute;
+    right: 0%;
+    top:0%
+ 
+
+}
+.tituloPG{
+    position: relative;
+    right: 20%;
+}
+
+
+main {
+    min-height: 75vh;
+    display: grid;
+    height: 300px;
+    background-color: #ec2044;
+    align-items: center;
+    justify-content: center;
+   
+  
+
+  }
+
+  .formCriarConta::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .formCriarConta::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  .formCriarConta::-webkit-scrollbar-thumb {
+    background-color: #ec204534;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #21252988;  /* creates padding around scroll thumb */
+  }
+
+
+  .main__content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    
+
+  }
+
+ 
+.form-control, textarea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+/*@media(max-width: 768px){
+    header{
+        position: relative;
+        align-items: center;
+        left: -45%;
+    }
+    header label{
+        display:block;
+    }
+    .menu ul{
+        position: absolute;
+        background-color: #2f2f2f;
+        width: 100;
+        flex-direction: column;
+        margin-left: -2000%;
+        border: 1px solid #1c1c1c;
+    }
+
+    #btn-menu:checked ~ .menu ul{
+        margin-left: 0;
+    }
+    .chatNews{
+        visibility: hidden;
+    }
+    .logo{
+        visibility: hidden;
+    }
+
+
+}*/
+select,
+input {
+  display: block;
+}
+
+input[type="checkbox" i]{
+  display:inline;
+}
+termoUso{
+  color:#000000;
+}
+.formLogin{
+    text-decoration: none;
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top: 20%;
+
+}
+.formMsg404{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+   
+    position: absolute;
+    top:20%
+
+
+     
+
+}
+.formCriarContaLabel{
+  position: relative;
+  color: #000000;
+  left:10px;
+  font-size: 14px;
+}
+.formCriarContaInput{
+
+  width: 290px;
+  height: 18px;
+  padding-left:20px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: 3px solid transparent;
+}
+.formCriarContaSelect{
+
+  width: 318px;
+  height: 28px;
+  padding-left:100px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: 3px solid transparent;
+}
+.formLoginInputE{
+    position: absolute;
+    width: 400px;
+    height: 48px;
+
+    top: 180px;
+
+    padding-left:100px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: 3px solid #ec2044
+}
+.formLoginLabelE{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+
+    top: 180px;
+    padding-top: 15px;
+    padding-left:15px;
+    background: rgba(236, 32, 68, 0.50);
+    border-radius: 50px;
+}
+.formLoginInputS{
+    position: absolute;
+    width: 400px;
+    height: 48px;
+
+    top: 250px;
+
+    padding-left:100px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: 3px solid #ec2044
+}
+
+.formLoginLabelS{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+
+    top: 250px;
+    padding-top: 15px;
+    padding-left:15px;
+    background: rgba(236, 32, 68, 0.50);
+    border-radius: 50px;
+}
+.formLoginBtn {
+    position: absolute;
+    width: 195px;
+    height: 48px;
+    left: 170px;
+    top: 380px;
+    color: #FFFFFF;
+    font-size:18px;
+
+    background: #00AEFF;
+    border-radius: 50px;
+    border: 3px solid #ec2044
+}
+
+.poppins-semi-bold-midnight-moss-44px {
+    color: rgba(5, 5, 5, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .span404 {
+    font-family: Atkinson Hyperlegible;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 144px;
+    line-height: 100%;
+    /* or 8px */
+
+    color: #1c1c1c;
+  }
+  .span4042 {
+    font-family: Atkinson Hyperlegible;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 144px;
+    line-height: 100%;
+    /* or 8px */
+    color: #20a1ec;
+  }
+  .spanPG {
+    font-family: Atkinson Hyperlegible;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 100%;
+    /* or 8px */
+
+    color: #1c1c1c;
+  }
+  .spanPG2 {
+    font-family: Atkinson Hyperlegible;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 100%;
+    /* or 8px */
+    color: #20a1ec;
+  }
+  .span404Apoio {
+    font-family: Atkinson Hyperlegible;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 100%;
+    /* or 8px */
+
+    color: #000000;
+  }
+  .span404ApoioA {
+    font-family: Atkinson Hyperlegible;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 100%;
+    /* or 8px */
+    color: #20a1ec;
+  }
+  .span404ApoioV {
+    font-family: Atkinson Hyperlegible;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 100%;
+    /* or 8px */
+    color: #09D69D;
+  }
+  .footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    
+
+  }
+
+  .rodape ul{
+    position: absolute;
+    list-style: none;
+    padding: 10px 30px;
+    margin-top: 20;
+    right: 0%;
+    display: flex;
+    transition: all .5s;
+    padding-top: 20px;
+
+}
+.rodape li a{
+    
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 15px;
+
+}
